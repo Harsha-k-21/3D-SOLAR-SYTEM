@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK's Solar System 3D</title>
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    
+        /* ✅ Increase GUI Size & Move it to the Right */
+        .dg.ac {
+            top: 20px !important;  /* Position at the top */
+            right: 40px !important; /* Move to the right */
+            width: 2800px !important;  /* Increase width */
+            font-size: 16px !important;  /* Make text larger */
+        }
+    
+        /* ✅ Increase font size inside GUI */
+        .dg .property-name, 
+        .dg .slider {
+            font-size: 20px !important;  /* Adjusts text size */
+        }
+    
+        .dg .cr.function, .dg .cr.boolean {
+            height: 30px !important;  /* Increases button size */
+        }
+    </style>
+    
+
+    <link rel="icon" type="image/png" href="image/solar-system.png">
+
+    <!-- Include dat.GUI -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+</head>
+<body>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
